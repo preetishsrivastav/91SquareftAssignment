@@ -115,6 +115,7 @@ class MainAdapter(val context: Context,val pack:String ) : RecyclerView.Adapter<
 
     override fun getItemCount(): Int {
         return dataList.size
+
     }
     fun showDialogPermissionRationale(){
         AlertDialog.Builder(context)
